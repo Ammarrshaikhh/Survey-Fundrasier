@@ -5,50 +5,65 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <style>
+          
+         h2{
+         font-family:Helvetica Neue;
+         font-size: 20px;
+         font-weight: 400;
+         }
          /* Style the body */
          body {
-         font-family: Arial;
+         font-family:Helvetica Neue;
          margin: 0;
          }
          /* Header/Logo Title */
          .header {
-         padding: 30px;
+         padding: 10px;
          text-align: center;
-         background: #52A46E;
+         background: #1E90FF;
          color: white;
-         font-size: 30px;
-         font-family:serif;
+         font-size: 20px;
+         font-family:Helvetica Neue;
          }
          /* Page Content */
          .content {
          padding:20px;
          text-align: center;
          background: #E9F7EE;
-         font-family:serif;
+         font-family:Helvetica Neue;
+         font-size: 12px;
+         font-weight: 300;
          }
          .about {
          padding:50px;
-         font-size: 20px;
+         font-size: 15px;
          font-weight: 300;
          text-align: center;
          background: #E9F7EE;
-         font-family:serif;
+         font-family:Helvetica Neue;
          }
          .button {
          border: none;
          color: white;
-         padding: 15px 32px;
+         padding: 8px 16px;
          text-align: right;
          text-decoration: none;
          display: inline-block;
          font-size: 16px;
          margin: 4px 2px;
          cursor: pointer;
+         font-family:Helvetica Neue;
          }
-         .button1 {background-color: #52A46E;}
+         .button1 {
+         background-color: #52A46E;
+         }
          #footer {
          text-align: center;
-         }
+         font-family:Helvetica Neue;
+         font-weight: 400;
+        
+            }
+          
       </style>
    </head>
    <body>
@@ -57,14 +72,14 @@
          <p>LaunchGood</p>
       </div>
       <div class="about">
-         <h1> Who Are we?</h1>
+         <h2> Who Are we?</h2>
          <p>
             Currently, over 21 million Pakistanis suffer from a water sanitation crisis that has impacted the entire country. Major cities like Karachi and Lahore struggle to provide access to clean and safe drinking water, but the situation worsens amongst rural villages that not only lack modern systems, but also adequate healthcare. Contaminated water is the leading cause of diarrhea and other severe health conditions, resulting in death due to a lack of treatment in many of these underdeveloped villages. Children, more than any other demographic, are the most vulnerable victims of these health conditions as their immune systems are not developed enough to withstand the muddened and bacterially infected water they’re forced to drink.
          </p>
-         <img src="https://s3.amazonaws.com/launchgood/sponsor%2F1652%2Fpaani_92253421_1103067886730235_3513371084504170496_o+%281%29-700x525.jpg" alt="Trulli" width="500" height="333">
+        
       </div>
       <div class="content">
-         <h1>Survey</h1>
+         <h2>Survey</h2>
          <p>Name</p>
          <!-- Input type text for small texts, specify size -->
          <input type="text" name="UserName" size=50 maxlength=35 value="">
@@ -102,10 +117,12 @@
          <p></p>
          <button class="button button1">Submit</button>
       </div>
+       <footer class= "Footer">
       <div id="footer">
          <p>Ammar Shaikh<br>
             <a href="https://www.launchgood.com/campaign/raise_funds_for_a_well_with_ammar#!/">Raise funds for a well with Ammar</a>
          </p>
       </div>
+       </footer>
    </body>
 </html>
